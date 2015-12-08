@@ -12,14 +12,26 @@ namespace devCodeCampExtendedMath
 
         public void Main(int number)
         {
-            int nextnumber = happyEquation(number);
+            int nextnumber = verifyHappy(number);
             while (nextnumber != 1)
-                nextnumber = happyEquation(nextnumber);
+                verifyHappy(nextnumber);
+
             Console.WriteLine(nextnumber);
-            //while (happylist.Count <= number)
+            /*while (happylist.Count <= number)
+            {
+                Main(number);
+            }*/
         }
         
-        
+        public int verifyHappy(int nextnumber)
+        {
+            int recursion = 0;
+            while (recursion < 10 || nextnumber != 1)
+                nextnumber = happyEquation(nextnumber);
+                recursion++;
+                return nextnumber;
+                    
+        }
 
         public int happyEquation(int number)
         {
