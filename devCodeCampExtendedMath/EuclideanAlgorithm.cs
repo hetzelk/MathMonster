@@ -30,7 +30,6 @@ namespace devCodeCampExtendedMath
             {
                 answer = findGCD(number, n);
                 gcdlist.Add(answer);
-                Console.WriteLine(answer.ToString());
             }
 
             int greatestanswer = gcdlist.Max();

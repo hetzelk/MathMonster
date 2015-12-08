@@ -11,10 +11,11 @@ namespace devCodeCampExtendedMath
         List<int> happylist = new List<int>();
 
         public void Main(int number)
-        {
-            int nextnumber = verifyHappy(number);
+        {   
+            int nextnumber = happyEquation(number);
+            int recursion = 0;
             while (nextnumber != 1)
-                verifyHappy(nextnumber);
+                nextnumber = happyEquation(nextnumber);
 
             Console.WriteLine(nextnumber);
             /*while (happylist.Count <= number)
@@ -23,16 +24,6 @@ namespace devCodeCampExtendedMath
             }*/
         }
         
-        public int verifyHappy(int nextnumber)
-        {
-            int recursion = 0;
-            while (recursion < 10 || nextnumber != 1)
-                nextnumber = happyEquation(nextnumber);
-                recursion++;
-                return nextnumber;
-                    
-        }
-
         public int happyEquation(int number)
         {
             var numbers = splitNumber(number);

@@ -13,12 +13,13 @@ namespace devCodeCampExtendedMath
             int numberh;
             int numberr;
             int numbere;
+            int numberm;
+
+            Console.WriteLine("Enter a number from 1 to 47 for a list of fibbonacci numbers.");
+            numberm = Convert.ToInt32(Console.ReadLine());
+            MyMathThing mine = new MyMathThing();
+            mine.Main(numberm);
             
-            Console.WriteLine("Enter a number from 1 to 1,000 for a list of happy numbers.");
-            numberh = Convert.ToInt32(Console.ReadLine());
-            HappyNumbers happy = new HappyNumbers();
-            happy.Main(numberh);
-            /*
             Console.WriteLine("Enter a number from 1 to 10,000 for a Roman Numeral.");
             numberr = Convert.ToInt32(Console.ReadLine());
             RomanNumeral roman = new RomanNumeral();
@@ -27,8 +28,14 @@ namespace devCodeCampExtendedMath
             Console.WriteLine("Enter a number from 1 to 1,000 to find the greatest common denominator.");
             numbere = Convert.ToInt32(Console.ReadLine());
             EuclideanAlgorithm euclidean = new EuclideanAlgorithm();
-            euclidean.euclideanEquation(numbere);*/
+            euclidean.euclideanEquation(numbere);
 
+            Console.WriteLine("Enter a number from 1 to see if it's happy or not.");
+            Console.WriteLine("If it doesn't answer 1 within a second, then it's not a happy number.");
+            Console.WriteLine("I couln't break out of the loop correctly before the projec was due.");
+            numberh = Convert.ToInt32(Console.ReadLine());
+            HappyNumbers happy = new HappyNumbers();
+            happy.Main(numberh);
 
             Console.Read();
         }
