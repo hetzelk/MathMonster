@@ -1,0 +1,10 @@
+C:\Users\Keith Hetzel\Desktop\4. dev code camp\C#\devCodeCampExtendedMath\devCodeCampExtendedMath\bin\Debug\devCodeCampExtendedMath.pdb
+C:\Users\Keith Hetzel\Desktop\4. dev code camp\C#\devCodeCampExtendedMath\devCodeCampExtendedMath\obj\Debug\devCodeCampExtendedMath.csprojResolveAssemblyReference.cache
+C:\Users\Keith Hetzel\Desktop\4. dev code camp\C#\devCodeCampExtendedMath\devCodeCampExtendedMath\obj\Debug\devCodeCampExtendedMath.pdb
+C:\Users\Keith Hetzel\Desktop\4. dev code camp\C#\devCodeCampExtendedMath\devCodeCampExtendedMath\bin\Debug\devCodeCampExtendedMath.exe
+C:\Users\Keith Hetzel\Desktop\4. dev code camp\C#\devCodeCampExtendedMath\devCodeCampExtendedMath\obj\Debug\devCodeCampExtendedMath.exe
+C:\Users\Keith Hetzel\Documents\GitHub\MathMonster\devCodeCampExtendedMath\obj\Debug\devCodeCampExtendedMath.exe
+C:\Users\Keith Hetzel\Documents\GitHub\MathMonster\devCodeCampExtendedMath\obj\Debug\devCodeCampExtendedMath.pdb
+C:\Users\Keith Hetzel\Documents\GitHub\MathMonster\devCodeCampExtendedMath\obj\Debug\devCodeCampExtendedMath.csprojResolveAssemblyReference.cache
+C:\Users\Keith Hetzel\Documents\GitHub\MathMonster\devCodeCampExtendedMath\bin\Debug\devCodeCampExtendedMath.exe
+C:\Users\Keith Hetzel\Documents\GitHub\MathMonster\devCodeCampExtendedMath\bin\Debug\devCodeCampExtendedMath.pdb
