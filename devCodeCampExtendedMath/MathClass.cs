@@ -14,7 +14,7 @@ namespace devCodeCampExtendedMath
             int numberr;
             int numbere;
             int numberm;
-
+            
             Console.WriteLine("Enter a number from 1 to 47 for a list of fibbonacci numbers.");
             numberm = Convert.ToInt32(Console.ReadLine());
             MyMathThing mine = new MyMathThing();
